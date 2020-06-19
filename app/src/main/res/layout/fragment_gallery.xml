@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Fila1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_margin="5sp"
+            android:layout_weight="25"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2sp"
+                android:layout_weight="33.33"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:contentDescription="@string/img1"
+                android:state_selected="true"
+                tools:ignore="NestedWeights" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2sp"
+                android:layout_weight="33.33"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:contentDescription="@string/img2"
+                android:state_selected="true" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2sp"
+                android:layout_weight="33.33"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:contentDescription="@string/img3"
+                android:state_selected="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Fila2"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_margin="5sp"
+            android:layout_weight="25"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2sp"
+                android:layout_weight="33.33"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:contentDescription="@string/img4"
+                android:state_selected="true"
+                tools:ignore="NestedWeights" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2sp"
+                android:layout_weight="33.33"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:contentDescription="@string/img5"
+                android:state_selected="true" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="2sp"
+                android:layout_weight="33.33"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:contentDescription="@string/img6"
+                android:state_selected="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:layout_weight="25"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="100">
+
+            <Switch
+                android:id="@+id/sw_fcimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:switchMinWidth="56dp"
+                android:text="Fácil:"
+                android:textOff="OFF"
+                android:textOn="ON"
+                android:layout_marginRight="10dp"/>
+
+            <Switch
+                android:id="@+id/sw_dfimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:switchMinWidth="56dp"
+                android:text="Difícil:"
+                android:textOff="OFF"
+                android:textOn="ON" />
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/newGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/fab_margin"
+            android:layout_marginBottom="24dp"
+            android:clickable="true"
+            android:elevation="6dp"
+            android:gravity="center"
+            android:src="@android:drawable/ic_menu_rotate" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

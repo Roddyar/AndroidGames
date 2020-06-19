@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Games</string>
+    <string name="navigation_drawer_open">Abrir la caja de navegación</string>
+    <string name="navigation_drawer_close">Cerrar la caja de navegación</string>
+    <string name="nav_header_title">Games App</string>
+    <string name="nav_header_subtitle">Un producto de FoxKey S.A.</string>
+    <string name="nav_header_desc">Encabezado de navegación</string>
+    <string name="action_setting1">Nivel medio</string>
+    <string name="action_setting2">Nivel avanzado</string>
+
+    <string name="menu_home">Laberinto</string>
+    <string name="menu_gallery">Imágenes</string>
+
+    <string name="home_second">Segundo Inicio</string>
+
+    <string name="maze_solved">Bien hecho!</string>
+
+    <string name="img1">img1</string>
+    <string name="img2">img2</string>
+    <string name="img3">img3</string>
+    <string name="img4">img4</string>
+    <string name="img5">img5</string>
+    <string name="img6">img6</string>
+</resources>
